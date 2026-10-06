@@ -843,15 +843,7 @@
   <h1>Individal Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
+<p>The block diagram provided shows how the major components of the subsystem are connected, how power is distributed, and how signals travel between the subsystem and the rest of the team’s device. The subsystem is powered from the team connection using a 5V LM2596 from Texas Instruments, which provides power to the PIC18F57Q43 Curiosity Nano, temperature sensor, and the buttons. The MCP9700A temperature sensor produces an analog voltage signal that is sent to the PIC’s ADC input for measurement. All the user inputs are provided through six buttons connected to digital input pins on the microcontroller. Communication with the rest of the team occurs through Connector 2, which provides RX, TX, 5 V, and GND, allowing both power and UART data to pass between subsystems.</p>
 <h2 id="example-block-diagram">Example Block Diagram</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Screenshot%202026-10-05%20180358.png" data-desc-position="bottom"><img alt="Block Diagram Screenshot" src="../Screenshot%202026-10-05%20180358.png"></a></p>
 
