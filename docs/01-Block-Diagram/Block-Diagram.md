@@ -11,4 +11,6 @@ The block diagram provided shows how the major components of the subsystem are c
 
 ## Individual Block Diagram 
 
+
 ![Block Diagram Screenshot](Screenshot%202026-10-16%2021457.png)
+
