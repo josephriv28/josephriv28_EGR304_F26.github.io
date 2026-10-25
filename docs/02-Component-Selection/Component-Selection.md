@@ -56,3 +56,59 @@ title: Component Selection
 **Choice:** Option 1: MCP9700A-E/TO
 
 **Rationale:** The MCP9700A is not only cost effective, but provides simple and direct integration for the Curiosity Nano that will be used for this part of the product. Although its readings aren't as accurate at the TMP235A2DBZR, readings are still within a ±2°C range, and will have a more reliable method of installation.
+
+
+
+**Operational Amplifier**
+
+1. Microchip Technologies MCP6004-I/SL
+
+
+    ![Op-Amp](MCP9700A-E-TO.jpg)
+    
+
+    * $0.61/each
+    * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-SL/523061?)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Cost effective                               | Requires ADC conversion |
+    | Easy through-hole soldering                      | Analog signal susceptible to noise                                        |
+    | Direct PIC ADC connection |
+
+    
+
+2. Texas Instruments TLV9004IDR
+
+    ![Op-Amp](Screenshot%202026-10-16%20102012.png)
+
+    * $1.85/each
+    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TLV9004IDR/9674911?)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Wide temperature range                                             | Higher cost      |
+    | Simple analog interface                                 | Lower specified accuracy at 25°C |
+    | Compatible with 5V supply |
+
+    
+
+3. Texas Instruments TLV9054IDR
+
+    !![Op-Amp](Screenshot%202026-10-16%20105352.png)
+    
+    * $0.56/each
+    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TLV9054IDR/10273198)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Cost effective                                             | Difficult for surface-mount soldering      |
+    | Small PCB footprint                                 | Different voltage-to-temperature conversion |
+    | Good specified accuracy (±1.2°C (±2°C)) |
+
+    
+
+
+**Choice:** Option 1: MCP9700A-E/TO
+
+**Rationale:** The MCP9700A is not only cost effective, but provides simple and direct integration for the Curiosity Nano that will be used for this part of the product. Although its readings aren't as accurate at the TMP235A2DBZR, readings are still within a ±2°C range, and will have a more reliable method of installation.
