@@ -39,7 +39,7 @@ title: Component Selection
 
 3. Texas Instruments TMP235A2DBZR
 
-    !![Temperature Sensor](Screenshot%202026-10-16%20105352.png)
+    ![Temperature Sensor](Screenshot%202026-10-16%20105352.png)
     
     * $0.56/each
     * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TMP235A2DBZR/9649793?s=N4IgTCBcDaICoFkAKYDMBWAgmAIgIQC0AlEAXQF8g)
