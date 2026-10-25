@@ -64,11 +64,11 @@ title: Component Selection
 1. Microchip Technologies MCP6004-I/SL
 
 
-    ![Op-Amp](MCP9700A-E-TO.jpg)
+    ![Op-Amp](mcp6004.jpg)
     
 
-    * $0.61/each
-    * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-SL/523061?)
+    * $0.53/each
+    * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004T-I-SL/523092)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -80,9 +80,9 @@ title: Component Selection
 
 2. Texas Instruments TLV9004IDR
 
-    ![Op-Amp](Screenshot%202026-10-16%20102012.png)
+    ![Op-Amp](Texas%20Instruments%20LMV324IDR.jpg)
 
-    * $1.85/each
+    * $0.91/each
     * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TLV9004IDR/9674911?)
 
     | Pros                                                              | Cons                |
@@ -95,9 +95,9 @@ title: Component Selection
 
 3. Texas Instruments TLV9054IDR
 
-    !![Op-Amp](Screenshot%202026-10-16%20105352.png)
+    !![Op-Amp](Texas%20Instruments%20TLV9054IDR.jpg)
     
-    * $0.56/each
+    * $1.14/each
     * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TLV9054IDR/10273198)
 
     | Pros                                                              | Cons                |
