@@ -80,7 +80,7 @@ title: Component Selection
 
 2. Texas Instruments TLV9004IDR
 
-    ![Op-Amp](Texas%20Instruments%20TLV9004IDR.jpg)
+    ![Op-Amp](![Op-Amp](Texas%20Instruments%20TLV9004IDR.png))
 
     * $0.91/each
     * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TLV9004IDR/9674911)
