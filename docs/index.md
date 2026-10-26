@@ -16,19 +16,26 @@ for<br>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+This individual engineering datasheet documents my contributions to RadioLink, a project developed by Team 105 for EGR 304 at Arizona State University. It provides an overview of my subsystem's functionality, hardware components, design decisions, and integration with the overall device.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+RadioLink is a portable, off-grid communication device designed to provide dependable wireless messaging during emergencies or in areas without cellular or internet service. The project emphasizes reliability, portability, and ease of use.
 
+Team 105 consists of four engineering students, each responsible for developing an individual hardware subsystem that contributes to the complete device. My subsystem focuses on user controls and temperature monitoring to support RadioLink's functionality.
+
+For additional information regarding the project's objectives, requirements, and overall design, visit the [Team 105 RadioLink Report](https://asu-egr304-2026-f-105.github.io/EGR304-2026-F-105.github.io/).
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+My subsystem incorporates a PIC18F57Q43 Curiosity Nano microcontroller, MCP9700A temperature sensor, and MCP6004 non-inverting operational amplifier for temperature signal processing. Six navigation buttons, a test button, and a red LED provide user interaction and additional functionality.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+An LM7805 voltage regulator converts the subsystem's 9 V DC input into a regulated 5 V supply. Communication with other subsystems occurs through UART, with a common ground shared between the team's boards.
 
-For all the sections
+Readers can explore the following sections for additional technical information:
+
+- **[Block Diagram](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/):** Component layout, power distribution, and signal connections.
+- **[Component Selection](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/02-Component-Selection/Component-Selection/):** Component comparisons and selection rationale.
+- **[Bill of Materials (BOM)](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/03-BOM/BOM/):** Required components, quantities, and costs.
+- **[Electrical Schematic](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/04-Schematic/schematic/):** Detailed electrical connections and circuitry.
+- **[Power Budget](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/05-P
