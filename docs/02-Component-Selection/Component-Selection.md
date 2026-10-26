@@ -126,7 +126,7 @@ title: Component Selection
 
 1. Texas Instruments LM7805CT/NOPB
 
-   ![Voltage Regulator](LM7805CT-NOPB.jpg)
+   ![Voltage Regulator](Screenshot%202026-10-25%20234232.png)
 
    * $1.86/each
    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929)
@@ -141,7 +141,7 @@ title: Component Selection
 
 2. STMicroelectronics L7805CV
 
-   ![Voltage Regulator](L7805CV.jpg)
+   ![Voltage Regulator](Screenshot%202026-10-25%20234239.png)
 
    * $1.08/each
    * [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
@@ -156,7 +156,7 @@ title: Component Selection
 
 3. Onsemi MC7805CTG
 
-   ![Voltage Regulator](MC7805CTG.jpg)
+   ![Voltage Regulator](Screenshot%202026-10-25%20234244.png)
 
    * $0.99/each
    * [Link to product](https://www.digikey.com/en/products/detail/onsemi/MC7805CTG/919333)
@@ -179,10 +179,10 @@ title: Component Selection
 
 1. GlobTek WR9HD1000CCP-F(R6B)
 
-   ![Power Supply](GlobTek-WR9HD1000CCP.jpg)
+   ![Power Supply](Screenshot%202026-10-25%20234718.png)
 
    * $10.35/each
-   * [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000CCP-F-R6B/8598259)
+   * [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000LCP-F-R6B/8598260?s=N4IgTCBcDaIO4CcCcALAJgRgAw4DYGMAHAWgDMEA2AIxAF0BfIA)
 
    | Pros | Cons |
    | --- | --- |
@@ -194,7 +194,7 @@ title: Component Selection
 
 2. Pololu 1470
 
-   ![Power Supply](Pololu-1470.jpg)
+   ![Power Supply](Screenshot%202026-10-25%20234449.png)
 
    * $11.41/each
    * [Link to product](https://www.digikey.com/en/products/detail/pololu/1470/19200211)
@@ -209,7 +209,7 @@ title: Component Selection
 
 3. Jameco ReliaPro DDU090100J0490
 
-   ![Power Supply](Jameco-DDU090100J0490.jpg)
+   ![Power Supply](Screenshot%202026-10-25%20234455.png)
 
    * $12.89/each
    * [Link to product](https://www.digikey.com/en/products/detail/jameco-electronics/DDU090100J0490/25965882)
