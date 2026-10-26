@@ -836,11 +836,12 @@
   <h1>Schematic</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This schematic is designed to support an individual subsystem that reads surrounding temperature, and communicates with other team members' boards. This system uses an MCP9700-E/TO to measure the temperature, while an MCP6004 operational amplifier conditions &amp; amplifies the analog signal before the PIC18F57Q43 Curiosity Nano microcontroller processes it. Additionally, this subsystem includes 4 directional buttons (FWD, BACK, LEFT, RIGHT), and 2 action buttons (ENTER, BACK), for user input, while a test button and LED may be used for debugging and verification. Power is supplied through a regulated 5V system, as capacitors are used to stabilize power and for signal filtering. UART communication is also used through RA3 and RA4 to transmit and receive information between the other subsystems of the project. </p>
-<p><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../Individual_Subsystem.png" style="style" width:_350_="width:&quot;350&quot;" />
+<p>This schematic illustrates the electrical design of an individual subsystem responsible for measuring surrounding temperature, receiving user inputs, and communicating with the other RadioLink subsystems. The MCP9700A-E/TO temperature sensor measures ambient temperature, while an MCP6004 operational amplifier, configured as a non-inverting amplifier, conditions and amplifies the analog signal before it is processed by the PIC18F57Q43 Curiosity Nano microcontroller.</p>
+<p>The subsystem includes four directional buttons (UP, DOWN, LEFT, RIGHT) and two action buttons (ENTER, BACK) for user interaction, along with a test button and red LED for debugging and verification. Power is supplied through a 9 V DC adapter and regulated to 5 V using an LM7805 linear voltage regulator, with a 125 mA fuse providing preliminary input protection. Capacitors are incorporated for power stabilization, signal filtering, and button debouncing. UART communication is established through RA3 and RA4 to transmit and receive information between the team's subsystems, which share a common ground while maintaining independent voltage regulation.</p>
+<p><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="Rivera Individual_Subsystem.png" style="style" width:_350_="width:&quot;350&quot;" />
 <strong>Figure 1:</strong> Subsystem schematic for function buttons and temperature sensor.</p>
 <h2 id="resouces">Resouces</h2>
-<p>The schematic as a PDF download is available <a href="../Individual%20Subsystem.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../Individual%20Subsystem.zip"><em>here</em></a>.</p>
+<p>The schematic as a PDF download is available <a href="../Rivera%20Individual%20Subsystem.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../Individual%20Subsystem.zip"><em>here</em></a>.</p>
 
 
 
