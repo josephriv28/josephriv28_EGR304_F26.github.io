@@ -28,14 +28,19 @@ For additional information regarding the project's objectives, requirements, and
 
 ### My Contribution
 
-My subsystem incorporates a PIC18F57Q43 Curiosity Nano microcontroller, MCP9700A temperature sensor, and MCP6004 non-inverting operational amplifier for temperature signal processing. Six navigation buttons, a test button, and a red LED provide user interaction and additional functionality.
+My subsystem incorporates a PIC18F57Q43 Curiosity Nano microcontroller, MCP9700A temperature sensor, and MCP6004 non-inverting operational amplifier for temperature signal processing. Six navigation buttons, a test button, and a red LED provide user interaction and additional functionality or device troubleshooting.
 
 An LM7805 voltage regulator converts the subsystem's 9 V DC input into a regulated 5 V supply. Communication with other subsystems occurs through UART, with a common ground shared between the team's boards.
 
 Readers can explore the following sections for additional technical information:
 
-**Block Diagram:** Component layout, power distribution, and signal connections.
-**Component Selection:** Component comparisons and selection rationale.
-**Bill of Materials (BOM):** Required components, quantities, and costs.
-**Electrical Schematic:** Detailed electrical connections and circuitry.
-**Power Budget:** Current consumption and power requirements.
+
+>**Block Diagram:** Component layout, power distribution, and signal connections.
+
+>**Component Selection:** Component comparisons and selection rationale.
+
+>**Bill of Materials (BOM):** Required components, quantities, and costs.
+
+>**Electrical Schematic:** Detailed electrical connections and circuitry.
+
+>**Power Budget:** Current consumption and power requirements.
