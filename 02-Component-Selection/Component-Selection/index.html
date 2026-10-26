@@ -948,6 +948,193 @@
 </ol>
 <p><strong>Choice:</strong> Option 1: MCP6004-I/SL</p>
 <p><strong>Rationale:</strong> The MCP6004 was selected as the best operational amplifier for the subsystem for its effective balance between low power consumption, cost-effectiveness, and compatibility with the subsystem's design. Its operating voltage range of 1.8–6 V allows it to function reliably with the team's regulated 5 V power supply. Additionally, its rail-to-rail input and output capabilities make it suitable for amplifying the MCP9700A temperature sensor's analog voltage through a non-inverting amplifier configuration before sending the signal to the PIC18F57Q43 Curiosity Nano's ADC. In comparison, the TLV9054IDR and TLV9004IDR lack the advantages that the MCP6004 holds.</p>
+<p><strong>Voltage Regulator</strong></p>
+<ol>
+<li>Texas Instruments LM7805CT/NOPB</li>
+</ol>
+<p><img alt="Voltage Regulator" src="LM7805CT-NOPB.jpg" /></p>
+<ul>
+<li>$1.86/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provides a stable regulated 5V output</td>
+<td>Higher cost than competing regulators</td>
+</tr>
+<tr>
+<td>Easy through-hole soldering with TO-220 package</td>
+<td>Excess voltage is dissipated as heat</td>
+</tr>
+<tr>
+<td>Built-in thermal and overcurrent protection</td>
+<td>May require additional cooling at higher loads</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>STMicroelectronics L7805CV</li>
+</ol>
+<p><img alt="Voltage Regulator" src="L7805CV.jpg" /></p>
+<ul>
+<li>$1.08/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lower cost than LM7805</td>
+<td>Higher typical quiescent current</td>
+</tr>
+<tr>
+<td>Regulated 5V output with rated 1.5A capacity</td>
+<td>Excess voltage is dissipated as heat</td>
+</tr>
+<tr>
+<td>Easy through-hole soldering</td>
+<td>May require a heatsink at higher loads</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Onsemi MC7805CTG</li>
+</ol>
+<p><img alt="Voltage Regulator" src="MC7805CTG.jpg" /></p>
+<ul>
+<li>$0.99/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/onsemi/MC7805CTG/919333">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Most cost-effective option</td>
+<td>Rated output current is limited to 1A</td>
+</tr>
+<tr>
+<td>Built-in thermal and short-circuit protection</td>
+<td>Requires adequate thermal management</td>
+</tr>
+<tr>
+<td>TO-220 package is convenient for PCB assembly</td>
+<td>No significant efficiency advantage over LM7805</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 1: LM7805CT/NOPB</p>
+<p><strong>Rationale:</strong> The LM7805 was selected for its reliable 5V voltage regulation, compatibility with the subsystem's 9V DC input, and straightforward through-hole installation. Its built-in thermal and overcurrent protection supports dependable operation, while its output current capability is suitable for the subsystem's preliminary power requirements. Although the alternatives offer lower costs, the LM7805 provides a suitable balance of performance, protection, and ease of integration.</p>
+<hr />
+<p><strong>9V DC Power Supply</strong></p>
+<ol>
+<li>GlobTek WR9HD1000CCP-F(R6B)</li>
+</ol>
+<p><img alt="Power Supply" src="GlobTek-WR9HD1000CCP.jpg" /></p>
+<ul>
+<li>$10.35/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000CCP-F-R6B/8598259">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provides regulated 9V DC with 1A maximum output</td>
+<td>Requires access to an AC wall outlet</td>
+</tr>
+<tr>
+<td>Universal 90–264V AC input</td>
+<td>Barrel connector must match PCB power jack</td>
+</tr>
+<tr>
+<td>Standard center-positive barrel connector</td>
+<td>Limits portability without an independent battery</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Pololu 1470</li>
+</ol>
+<p><img alt="Power Supply" src="Pololu-1470.jpg" /></p>
+<ul>
+<li>$11.41/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/pololu/1470/19200211">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provides stable 9V DC with 1A maximum output</td>
+<td>Higher cost than GlobTek</td>
+</tr>
+<tr>
+<td>Universal 100–240V AC input</td>
+<td>Requires an external AC outlet</td>
+</tr>
+<tr>
+<td>Standard center-positive barrel connector</td>
+<td>Additional marketplace shipping costs may apply</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Jameco ReliaPro DDU090100J0490</li>
+</ol>
+<p><img alt="Power Supply" src="Jameco-DDU090100J0490.jpg" /></p>
+<ul>
+<li>$12.89/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/jameco-electronics/DDU090100J0490/25965882">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provides 9V DC with 1A maximum output</td>
+<td>Highest cost of the three options</td>
+</tr>
+<tr>
+<td>Center-positive barrel connector simplifies integration</td>
+<td>Limited to 120V AC input</td>
+</tr>
+<tr>
+<td>Suitable for powering the LM7805 regulator</td>
+<td>Additional marketplace shipping costs may apply</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 1: GlobTek WR9HD1000CCP-F(R6B)</p>
+<p><strong>Rationale:</strong> The GlobTek power adapter was selected for its cost-effectiveness, regulated 9V DC output, and compatibility with the LM7805 voltage regulator. Its 1A maximum output current is sufficient for the subsystem's preliminary power requirements, while its universal AC input and standard barrel connector simplify integration. Compared to the alternatives, the GlobTek provides a practical balance of cost, reliability, and electrical compatibility for RadioLink.</p>
 
 
 
