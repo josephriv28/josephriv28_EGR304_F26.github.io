@@ -4,13 +4,14 @@ title: Schematic
 
 ## Overview
 
-This schematic is designed to support an individual subsystem that reads surrounding temperature, and communicates with other team members' boards. This system uses an MCP9700-E/TO to measure the temperature, while an MCP6004 operational amplifier conditions & amplifies the analog signal before the PIC18F57Q43 Curiosity Nano microcontroller processes it. Additionally, this subsystem includes 4 directional buttons (FWD, BACK, LEFT, RIGHT), and 2 action buttons (ENTER, BACK), for user input, while a test button and LED may be used for debugging and verification. Power is supplied through a regulated 5V system, as capacitors are used to stabilize power and for signal filtering. UART communication is also used through RA3 and RA4 to transmit and receive information between the other subsystems of the project. 
+This schematic illustrates the electrical design of an individual subsystem responsible for measuring surrounding temperature, receiving user inputs, and communicating with the other RadioLink subsystems. The MCP9700A-E/TO temperature sensor measures ambient temperature, while an MCP6004 operational amplifier, configured as a non-inverting amplifier, conditions and amplifies the analog signal before it is processed by the PIC18F57Q43 Curiosity Nano microcontroller.
 
+The subsystem includes four directional buttons (UP, DOWN, LEFT, RIGHT) and two action buttons (ENTER, BACK) for user interaction, along with a test button and red LED for debugging and verification. Power is supplied through a 9 V DC adapter and regulated to 5 V using an LM7805 linear voltage regulator, with a 125 mA fuse providing preliminary input protection. Capacitors are incorporated for power stabilization, signal filtering, and button debouncing. UART communication is established through RA3 and RA4 to transmit and receive information between the team's subsystems, which share a common ground while maintaining independent voltage regulation.
 
-![schematic](Individual_Subsystem.png){style width:"350" height:"300;"}
+![schematic](Rivera Individual_Subsystem.png){style width:"350" height:"300;"}
 **Figure 1:** Subsystem schematic for function buttons and temperature sensor.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Individual Subsystem.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
+The schematic as a PDF download is available [*here*](Rivera Individual Subsystem.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
