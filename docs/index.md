@@ -34,8 +34,12 @@ An LM7805 voltage regulator converts the subsystem's 9 V DC input into a regulat
 
 Readers can explore the following sections for additional technical information:
 
-- **[Block Diagram](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/):** Component layout, power distribution, and signal connections.
-- **[Component Selection](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/02-Component-Selection/Component-Selection/):** Component comparisons and selection rationale.
-- **[Bill of Materials (BOM)](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/03-BOM/BOM/):** Required components, quantities, and costs.
-- **[Electrical Schematic](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/04-Schematic/schematic/):** Detailed electrical connections and circuitry.
-- **[Power Budget](https://josephriv28.github.io/josephriv28_EGR304_F26.github.io/05-P
+Block Diagram: Component layout, power distribution, and signal connections.
+
+Component Selection: Component comparisons and selection rationale.
+
+Bill of Materials (BOM): Required components, quantities, and costs.
+
+Electrical Schematic: Detailed electrical connections and circuitry.
+
+Power Budget: Current consumption and power requirements.
