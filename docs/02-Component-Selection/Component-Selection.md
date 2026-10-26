@@ -178,18 +178,19 @@ title: Component Selection
 
 **9V DC Power Supply**
 
-1. GlobTek WR9HD1000CCP-F(R6B)
+1. AlloverPower 9V 3A Power Adapter
 
-   ![Power Supply](Screenshot%202026-10-25%20234718.png)
+   ![Power Supply](Screenshot%202026-10-26%20012446.png)
 
-   * $10.35/each
-   * [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000LCP-F-R6B/8598260?s=N4IgTCBcDaIO4CcCcALAJgRgAw4DYGMAHAWgDMEA2AIxAF0BfIA)
+   * Price: Check current Amazon listing
+   * [Link to product](https://www.amazon.com/dp/B07QV8CCJ5)
+   * Part Number: B07QV8CCJ5 (Amazon ASIN)
 
    | Pros | Cons |
    | --- | --- |
-   | Provides regulated 9V DC with 1A maximum output | Requires access to an AC wall outlet |
-   | Universal 90–264V AC input | Barrel connector must match PCB power jack |
-   | Standard center-positive barrel connector | Limits portability without an independent battery |
+   | Provides 9V DC with a maximum output of 3A | Higher current capacity than the subsystem currently requires |
+   | 27W output provides additional power capacity | Requires access to an AC outlet |
+   | Center-positive 5.5 × 2.1mm connector | Less suitable for portable operation without a battery |
 
    
 
@@ -221,11 +222,9 @@ title: Component Selection
    | Center-positive barrel connector simplifies integration | Limited to 120V AC input |
    | Suitable for powering the LM7805 regulator | Additional marketplace shipping costs may apply |
 
+   **Choice:** Option 1: AlloverPower 9V 3A Power Adapter
    
-
-**Choice:** Option 1: GlobTek WR9HD1000CCP-F(R6B)
-
-**Rationale:** The GlobTek power adapter was selected for its cost-effectiveness, regulated 9V DC output, and compatibility with the LM7805 voltage regulator. Its 1A maximum output current is sufficient for the subsystem's preliminary power requirements, while its universal AC input and standard barrel connector simplify integration. Compared to the alternatives, the GlobTek provides a practical balance of cost, reliability, and electrical compatibility for RadioLink.
+   **Rationale:** The AlloverPower adapter was selected for its 9V DC output and 3A current capacity, providing sufficient power for the LM7805 regulator with additional capacity available. Unlike the two 1A alternatives, its 3A rating exceeds the regulator's nominal 1.5A output-current rating, making it the preferred option for RadioLink's power requirements.
 
 
 
