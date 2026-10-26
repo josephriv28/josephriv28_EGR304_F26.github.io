@@ -34,12 +34,8 @@ An LM7805 voltage regulator converts the subsystem's 9 V DC input into a regulat
 
 Readers can explore the following sections for additional technical information:
 
-Block Diagram: Component layout, power distribution, and signal connections.
-
-Component Selection: Component comparisons and selection rationale.
-
-Bill of Materials (BOM): Required components, quantities, and costs.
-
-Electrical Schematic: Detailed electrical connections and circuitry.
-
-Power Budget: Current consumption and power requirements.
+**Block Diagram:** Component layout, power distribution, and signal connections.
+**Component Selection:** Component comparisons and selection rationale.
+**Bill of Materials (BOM):** Required components, quantities, and costs.
+**Electrical Schematic:** Detailed electrical connections and circuitry.
+**Power Budget:** Current consumption and power requirements.
