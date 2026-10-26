@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Joseph Rivera Datasheet</font><br>
 as part of<br>
-<font size= "8"> The Radiolink </font><br>
+<font size= "8"> Radiolink </font><br>
 for<br>
 <font size= "5"> Team 105 </font><br>
 
