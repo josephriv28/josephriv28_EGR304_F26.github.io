@@ -125,6 +125,7 @@ title: Component Selection
 
 **Voltage Regulator**
 
+
 1. Texas Instruments LM7805CT/NOPB
 
    ![Voltage Regulator](Screenshot%202026-10-25%20234232.png)
@@ -137,6 +138,7 @@ title: Component Selection
    | Provides a stable regulated 5V output | Higher cost than competing regulators |
    | Easy through-hole soldering with TO-220 package | Excess voltage is dissipated as heat |
    | Built-in thermal and overcurrent protection | May require additional cooling at higher loads |
+
 
    
 
@@ -152,6 +154,7 @@ title: Component Selection
    | Lower cost than LM7805 | Higher typical quiescent current |
    | Regulated 5V output with rated 1.5A capacity | Excess voltage is dissipated as heat |
    | Easy through-hole soldering | May require a heatsink at higher loads |
+
 
    
 
@@ -191,10 +194,10 @@ title: Component Selection
    | Provides 9V DC with a maximum output of 3A | Higher current capacity than the subsystem currently requires |
    | 27W output provides additional power capacity | Requires access to an AC outlet |
    | Center-positive 5.5 × 2.1mm connector | Less suitable for portable operation without a battery |
-
    
 
-2. Pololu 1470
+   
+2.  Pololu 1470
 
    ![Power Supply](Screenshot%202026-10-25%20234449.png)
 
@@ -206,6 +209,7 @@ title: Component Selection
    | Provides stable 9V DC with 1A maximum output | Higher cost than GlobTek |
    | Universal 100–240V AC input | Requires an external AC outlet |
    | Standard center-positive barrel connector | Additional marketplace shipping costs may apply |
+   
 
    
 
