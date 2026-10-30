@@ -130,6 +130,7 @@ title: Component Selection
 
    ![Voltage Regulator](Screenshot%202026-10-25%20234232.png)
 
+
    * $1.86/each
    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929)
 
@@ -146,6 +147,7 @@ title: Component Selection
 
    ![Voltage Regulator](Screenshot%202026-10-25%20234239.png)
 
+
    * $1.08/each
    * [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
 
@@ -161,6 +163,7 @@ title: Component Selection
 3. Onsemi MC7805CTG
 
    ![Voltage Regulator](Screenshot%202026-10-25%20234244.png)
+
 
    * $0.99/each
    * [Link to product](https://www.digikey.com/en/products/detail/onsemi/MC7805CTG/919333)
@@ -183,6 +186,7 @@ title: Component Selection
 
 1. AlloverPower 9V 3A Power Adapter
 
+
    ![Power Supply](Screenshot%202026-10-26%20012446.png)
 
    * Price: Check current Amazon listing
@@ -199,6 +203,7 @@ title: Component Selection
    
 2.  Pololu 1470
 
+
    ![Power Supply](Screenshot%202026-10-25%20234449.png)
 
    * $11.41/each
@@ -214,6 +219,7 @@ title: Component Selection
    
 
 3. Jameco ReliaPro DDU090100J0490
+
 
    ![Power Supply](Screenshot%202026-10-25%20234455.png)
 
