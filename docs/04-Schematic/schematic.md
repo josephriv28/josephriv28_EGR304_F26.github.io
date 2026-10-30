@@ -10,10 +10,10 @@ The subsystem includes four directional buttons (UP, DOWN, LEFT, RIGHT) and two 
 
 Each resistor and capacitor value is also listed with their wattage and voltage readings, while various test points are spread across the schematic to identify where the user may troubleshoot any issues that occur within the subsystem.
 
-![Schematic](Rivera%20Individual%20Subsystem%20Updated.png){style width:"350" height:"300;"}
+![Individual Subsystem Schematic](Individual_Subsystem_3.png){style width:"350" height:"300;"}
 **Figure 1:** Subsystem schematic for function buttons and temperature sensor.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Final Individual Subsystem.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
+The schematic as a PDF download is available [*here*](Individual Subsystem.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
