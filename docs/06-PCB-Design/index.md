@@ -1,8 +1,4 @@
 
----
-title: PCB Design
----
-
 # PCB Design
 
 ## Introduction
