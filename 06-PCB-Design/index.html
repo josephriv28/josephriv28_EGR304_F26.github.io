@@ -820,15 +820,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#design-considerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Design Considerations
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#kicad-project-files" class="md-nav__link">
     <span class="md-ellipsis">
       KiCad Project Files
@@ -841,24 +832,6 @@
   <a href="#gerber-manufacturing-files" class="md-nav__link">
     <span class="md-ellipsis">
       Gerber Manufacturing Files
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      Design Verification
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
     </span>
   </a>
   
@@ -899,36 +872,12 @@
 <p>The back side of the PCB contains the bottom copper layer and additional routing required to complete the electrical connections.</p>
 <p><img alt="Back PCB Layout" src="Back_PCB.png" /></p>
 <p><a href="Back_PCB.pdf">Download Back PCB Layout (PDF)</a></p>
-<h2 id="design-considerations">Design Considerations</h2>
-<p>The PCB was designed with the following considerations:</p>
-<ol>
-<li>
-<p><strong>Component Placement:</strong> Components were arranged to provide adequate spacing, simplify routing, and support assembly.</p>
-</li>
-<li>
-<p><strong>Power Distribution:</strong> The LM7805 regulates the 9 V DC input to provide a 5 V supply for the subsystem.</p>
-</li>
-<li>
-<p><strong>Signal Routing:</strong> The temperature sensor output is processed through the MCP6004 amplifier before being measured by the microcontroller's ADC.</p>
-</li>
-<li>
-<p><strong>Communication:</strong> A 2x4 IDC connector provides the required interconnection with the other RadioLink subsystems.</p>
-</li>
-<li>
-<p><strong>Manufacturability:</strong> The PCB layout was developed according to the applicable design rules, board size constraints, and manufacturing specifications.</p>
-</li>
-</ol>
 <h2 id="kicad-project-files">KiCad Project Files</h2>
 <p>The complete KiCad project, including the schematic, PCB layout, and supporting custom libraries, is provided below.</p>
 <p><a href="RadioLink_PCB_Project.zip">Download Complete KiCad Project (ZIP)</a></p>
 <h2 id="gerber-manufacturing-files">Gerber Manufacturing Files</h2>
 <p>The Gerber archive includes the exported manufacturing layers and associated drill files used for design-for-manufacturability verification.</p>
-<p><a href="RadioLink_Gerber_Files.zip">Download Gerber and Drill Files (ZIP)</a></p>
-<h2 id="design-verification">Design Verification</h2>
-<p>The PCB design is verified using KiCad's Design Rules Checker (DRC) to identify electrical and physical layout issues.</p>
-<p>The exported Gerber files are also evaluated using JLCDFM to identify potential manufacturing issues before the design is submitted for fabrication.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>The PCB design represents the physical implementation of my RadioLink individual subsystem. The layout integrates the microcontroller, temperature sensing circuit, power regulation, user inputs, and inter-board connections into a single board. Design verification and manufacturability analysis help ensure that the PCB can be assembled, tested, and incorporated into the completed RadioLink system.</p>
+<p><a href="Individual_Subsystem_Rivera_Gerber_Files.zip">Download Gerber and Drill Files (ZIP)</a></p>
 
 
 
