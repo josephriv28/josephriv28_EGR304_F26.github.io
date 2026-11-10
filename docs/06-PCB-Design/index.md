@@ -27,7 +27,7 @@ The back side of the PCB contains the bottom copper layer and additional routing
 
 The complete KiCad project, including the schematic, PCB layout, and supporting custom libraries, is provided below.
 
-[Download Complete KiCad Project (ZIP)](RadioLink_PCB_Project.zip)
+[Download Complete KiCad Project (ZIP)](Rivera_Radiolink_Individual_Subsystem.zip)
 
 ## Gerber Manufacturing Files
 
